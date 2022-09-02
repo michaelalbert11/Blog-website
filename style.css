@@ -1,225 +1,235 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Ubuntu:wght@300;500;700&display=swap');
-body{
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Ubuntu:wght@300;500;700&display=swap");
+body {
   margin: 0;
   padding: 0;
   font-size: 1.1rem;
 }
-img{
-  width:100%
+img {
+  width: 100%;
 }
-.container{
+.linkpage,
+.linkpage:visited,
+.linkpage:active {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
   /* width: 65%; */
   margin: 0 auto;
   max-width: 870px;
 }
-.row{
+.row {
   display: flex;
   justify-content: space-between;
 }
-header{
+header {
   background-color: #f8f8f8;
 }
-header .container{
+header .container {
   padding: 2em 0;
 }
-header .row{
+header .row {
   align-items: center;
 }
-.nav-title h1{
-  font-family: 'Lora';
+.nav-title h1 {
+  font-family: "Lora";
   color: #143774;
   font-weight: normal;
   margin: 0;
 }
-.nav-title h5{
-  font-family: 'Ubuntu';
+.nav-title h5 {
+  font-family: "Ubuntu";
   color: #1792d2;
   text-transform: uppercase;
   font-size: 0.7rem;
-  font: weight 500px;;
+  font: weight 500px;
   letter-spacing: 2px;
   margin: 0;
 }
-nav{
-  font-family: 'Ubuntu';
+nav {
+  font-family: "Ubuntu";
 }
-ul{
+ul {
   display: flex;
   list-style: none;
   padding: 0;
 }
-li:nth-child(2){
-  margin:0 1em;
+li:nth-child(2) {
+  margin: 0 1em;
 }
-li a{
+li a {
   text-decoration: none;
-  color:#707070;
-  letter-spacing:0.2em;
+  color: #707070;
+  letter-spacing: 0.2em;
   font-size: 0.8rem;
-  font-weight:500;
+  font-weight: 500;
   padding-bottom: 0.4em;
 }
-li a:hover,li a:focus{
-  color:#1792d2;
-  border-bottom:1.5px solid #1792d2;
+li a:hover,
+li a:focus {
+  color: #1792d2;
+  border-bottom: 1.5px solid #1792d2;
 }
-.current-page{
-  border-bottom:1.5px solid #707070;
+.current-page {
+  border-bottom: 1.5px solid #707070;
 }
-section{
-  margin-top:3.5em
+section {
+  margin-top: 3.5em;
 }
-.col-l{
+.col-l {
   width: 70%;
 }
-.main-col h2{
-font-family: 'Lora';
-font-weight: normal;
-color: #143774;
-font-size: 1.8rem;
-margin: 1.2em 0;
+.main-col h2 {
+  font-family: "Lora";
+  font-weight: normal;
+  color: #143774;
+  font-size: 1.8rem;
+  margin: 1.2em 0;
 }
-.main-col p{
+.main-col p {
   margin-top: 2em;
 }
-.link{
+.link {
   color: #1792d2;
 }
-.link:hover,.link:focus{
+.link:hover,
+.link:focus {
   color: #143774;
 }
-.col-l-hr{
-margin: 2em 0;
+.col-l-hr {
+  margin: 2em 0;
 }
-.col-left{
+.col-left {
   width: 30%;
 }
-.col-right{
+.col-right {
   width: 67%;
 }
-.col + .col{
- margin: 5em 0; 
+.col + .col {
+  margin: 5em 0;
 }
-.col .row{
-  gap:20px;
+.col .row {
+  gap: 20px;
   align-items: flex-start;
 }
-.col-left img{
+.col-left img {
   min-height: 230px;
   object-fit: cover;
 }
-.time-stamp{
-  margin-top:1em;
-  font-family: 'Ubuntu';
+.time-stamp {
+  margin-top: 1em;
+  font-family: "Ubuntu";
   font-size: 0.9rem;
-  font-weight:300;
+  font-weight: 300;
 }
- h3{
-  font-family: 'Lora';
+h3 {
+  font-family: "Lora";
   color: #143774;
   font-size: 1.5rem;
   margin-top: 0;
   font-weight: normal;
 }
-p{
-  font-family:'Ubuntu';
-  margin-top:0;
+p {
+  font-family: "Ubuntu";
+  margin-top: 0;
   font-weight: 300;
   line-height: 1.5;
 }
-.leaf{
- object-position:left;
+.leaf {
+  object-position: left;
 }
-.reading{
-  font-family:'Ubuntu';
+.reading {
+  font-family: "Ubuntu";
   color: #1792d2;
-  font-weight:700;
+  font-weight: 700;
   text-decoration: none;
   font-size: 0.89rem;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
-.reading:hover,.reading:focus{
-  text-decoration:underline;
-  color:#143774;
+.reading:hover,
+.reading:focus {
+  text-decoration: underline;
+  color: #143774;
 }
-.col-short{
-  width:25%;
+.col-short {
+  width: 25%;
   min-width: 230px;
   margin-left: 1em;
 }
-.col-s{
+.col-s {
   margin-bottom: 2em;
 }
-.col-container{
-  border:20px solid #efefef;
+.col-container {
+  border: 20px solid #efefef;
   padding: 1em;
 }
-.col-title{
-  margin-top:0;
-  font-family:'Ubuntu';
-  font-weight:bold;
+.col-title {
+  margin-top: 0;
+  font-family: "Ubuntu";
+  font-weight: bold;
   font-size: 1.1rem;
-  color:#143774
+  color: #143774;
 }
-.col-s p{
- margin-top: 1em;
+.col-s p {
+  margin-top: 1em;
 }
-.text{
-  font-family: 'Lora';
+.text {
+  font-family: "Lora";
   color: #143774;
   font-size: 0.9em;
 }
-footer{
+footer {
   background-color: rgba(20, 55, 116);
-  color: rgba(255, 255, 255,0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
-footer .container{
+footer .container {
   padding: 3em 0;
 }
-footer p{
+footer p {
   text-align: center;
 }
-footer p:nth-child(2){
+footer p:nth-child(2) {
   margin-bottom: 0;
 }
-@media (max-width:950px){
-  .container{
+@media (max-width: 950px) {
+  .container {
     width: 90%;
   }
 }
-@media (max-width:700px){
-  .container .split{
+@media (max-width: 700px) {
+  .container .split {
     flex-direction: column;
   }
-  header .row{
+  header .row {
     flex-direction: column;
   }
-  .col-l{
+  .col-l {
     width: 100%;
   }
-  .col-short{
+  .col-short {
     width: 100%;
     margin-left: 0;
   }
 }
-@media (max-width:668px){
-  .col .row{
+@media (max-width: 668px) {
+  .col .row {
     flex-direction: column;
   }
-  .col-left,.col-right{
+  .col-left,
+  .col-right {
     width: 100%;
   }
-  .main-col{
+  .main-col {
     display: flex;
     flex-direction: column;
   }
-  .main-col h2{
+  .main-col h2 {
     order: -1;
-
   }
-  }
-@media (max-width:450px){
-  .split-container{
+}
+@media (max-width: 450px) {
+  .split-container {
     width: 83%;
   }
 }
